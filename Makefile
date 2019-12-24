@@ -6,7 +6,6 @@ build:
 
 test:
 	go test -v ./pkg/microbe/
-	go test -v ./pkg/microscope/
 
 docker:
 	@echo LATEST COMMIT IS $(GIT_COMMIT)
